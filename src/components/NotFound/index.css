@@ -1,0 +1,21 @@
+.not-found-main {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.not-found-main h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.not-found-main h2 {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.not-found-link {
+  display: inline-flex;
+  gap: 0.5rem;
+  width: auto;
+}

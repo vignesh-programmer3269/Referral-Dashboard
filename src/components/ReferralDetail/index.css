@@ -1,0 +1,74 @@
+.detail-main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.detail-content {
+  padding: 3rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: var(--primary-hover);
+}
+
+.detail-heading {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.partner-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: var(--text-main);
+}
+
+.detail-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row dt {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.detail-row dd {
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.not-found-state {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.not-found-state h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
